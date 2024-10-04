@@ -1,6 +1,6 @@
 public class PrimitiveDemo {
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         byte num;   // This can hold whole number between -128 and 127.
         num = 113;
         System.out.println(num);
@@ -30,4 +30,6 @@ public class PrimitiveDemo {
         char ch = 'Z';
         System.out.println(ch);
     }
+
+
 }
