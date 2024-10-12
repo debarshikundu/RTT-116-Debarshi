@@ -19,6 +19,9 @@ public class CalcRunner {
         t.setBase(10.0);
         t.setName("Triangle");
 
+        // this is no longer possible because shape is abstract and thus incomplete
+        //Shape s = new Shape();
+
         // make a list of shapes but notice that we are using the parent shape
         // in an indrect way, when we add individual shapes to this list, they are
         // automatically being typecasted to a shape
@@ -41,5 +44,13 @@ public class CalcRunner {
             System.out.println("The area for shape " + s.getName() + " is " + area + " and perimeter is " + perimeter);
         }
 
+        // the child can become the parent
+        //Shape s = new Circle();
+
+        // the parent can not become the child
+        //Circle c3 = new Shape();
+
     }
+
+
 }
