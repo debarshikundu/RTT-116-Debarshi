@@ -1,4 +1,4 @@
-package Homework.M303_2;
+package GLab303_2_1;
 
 public class LogicalOperatorsDemo {
     public static void main(String[] args)
